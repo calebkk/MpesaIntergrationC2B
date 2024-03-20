@@ -59,7 +59,7 @@ namespace MpesaIntergration.Controllers
                 ConfirmationURL = "https://mydomain.com/confirmation",
                 ResponseType = "Completed",
                 //ShortCode = 174379
-                ShortCode = 600983
+                ShortCode = 60098
             });
 
             var jsonReadyBody = new StringContent(
@@ -125,8 +125,4 @@ namespace MpesaIntergration.Controllers
 }
 
 
-/*security credentials 
- * 
- * QdCZakpQs8xSJ8pZgCeUXLXX0D0BI9tHI+vnTNlfaxZ4R5ipUDn1m6Vf1fbJ5HMduW5cke9+Muu7D0KxYb3kJvk9gf93IvJUX58odqrXfNVTCasIoR5lIHPAtmHO77hhZ/3k10rrV4YAAY/pYF87NFDIR9KXWqrzLPMPufzzs9gIn8wfaBYZi8TMQxuCd5uAWrCPVhRL03Lsi9XFLOgOo/VwvN2G7zRWsUBgRcwX0zUs72uuEG69oIMIc3UTcczUPZxr/p9I6F1jfbxdKLsPW9wKTrSkwmrF9hrDTA47XDEr/WKBzAzNON+9XWWMrntc5qtSypThbX/3YgOdHryheQ==
-https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl
-*/
+
